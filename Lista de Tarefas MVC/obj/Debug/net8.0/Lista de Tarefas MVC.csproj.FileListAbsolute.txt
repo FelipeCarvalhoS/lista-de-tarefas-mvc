@@ -1,0 +1,30 @@
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\appsettings.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\Lista de Tarefas MVC.staticwebassets.runtime.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\Lista de Tarefas MVC.exe
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\Lista de Tarefas MVC.deps.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\Lista de Tarefas MVC.runtimeconfig.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\Lista de Tarefas MVC.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\Lista de Tarefas MVC.pdb
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.AssemblyInfoInputs.cache
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.AssemblyInfo.cs
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.csproj.CoreCompileInputs.cache
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.RazorAssemblyInfo.cache
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.RazorAssemblyInfo.cs
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets\msbuild.Lista de Tarefas MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets\msbuild.build.Lista de Tarefas MVC.props
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Lista de Tarefas MVC.props
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Lista de Tarefas MVC.props
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\scopedcss\bundle\Lista de Tarefas MVC.styles.css
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\scopedcss\projectbundle\Lista de Tarefas MVC.bundle.scp.css
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\refint\Lista de Tarefas MVC.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.pdb
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.genruntimeconfig.cache
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\ref\Lista de Tarefas MVC.dll
