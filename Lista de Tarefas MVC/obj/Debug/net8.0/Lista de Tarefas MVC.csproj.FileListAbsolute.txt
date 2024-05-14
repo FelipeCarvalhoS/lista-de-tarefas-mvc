@@ -28,3 +28,11 @@ C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\ref
 C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.pdb
 C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.genruntimeconfig.cache
 C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\ref\Lista de Tarefas MVC.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de Tarefas MVC.csproj.AssemblyReference.cache
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\felipe.santos348\source\repos\Lista de Tarefas MVC\obj\Debug\net8.0\Lista de.DA029152.Up2Date

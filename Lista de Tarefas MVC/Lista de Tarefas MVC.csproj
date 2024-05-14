@@ -7,4 +7,12 @@
     <RootNamespace>Lista_de_Tarefas_MVC</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Tarefa\" />
+  </ItemGroup>
+
 </Project>
