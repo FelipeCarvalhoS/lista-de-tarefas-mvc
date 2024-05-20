@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lista de Tarefas MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cabd469bdd64157705f9e169bee74812c86afe94")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lista de Tarefas MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lista de Tarefas MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

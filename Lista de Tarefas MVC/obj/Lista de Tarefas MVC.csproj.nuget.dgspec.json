@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felipe.santos348\\source\\repos\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felipe.santos348\\source\\repos\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj": {
+    "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felipe.santos348\\source\\repos\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj",
         "projectName": "Lista de Tarefas MVC",
-        "projectPath": "C:\\Users\\felipe.santos348\\source\\repos\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj",
-        "packagesPath": "C:\\Users\\felipe.santos348\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felipe.santos348\\source\\repos\\Lista de Tarefas MVC\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\Lista de Tarefas MVC.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\felipe.santos348\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

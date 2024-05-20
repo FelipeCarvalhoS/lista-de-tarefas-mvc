@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Lista_de_Tarefas_MVC.Models.Tarefa>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descricao</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tarefa in Model)
+            {
+                <tr>
+                    <td>@tarefa.Id</td>
+                    <td>@tarefa.Descricao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

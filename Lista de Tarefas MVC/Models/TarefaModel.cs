@@ -13,7 +13,8 @@ namespace Lista_de_Tarefas_MVC.Models
 
         public TarefaModel()
         {
-            string strConn = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BDContato;Integrated Security=True";
+            //string strConn="Data Source=localhost;Initial Catalog=BDContato;Integrated Security=true";
+            string strConn = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ListaDeTarefas;Integrated Security=True";
             connection = new SqlConnection(strConn);
             connection.Open();
         }
@@ -49,8 +50,7 @@ namespace Lista_de_Tarefas_MVC.Models
         public List<Tarefa> Read()
         {
             List<Tarefa> lista = new List<Tarefa>();
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = @"SELECT * FROM TAREFA";
+            SqlCommand cmd = new SqlCommand(@"SELECT * FROM Tarefa", connection);
 
             SqlDataReader reader = cmd.ExecuteReader();
 

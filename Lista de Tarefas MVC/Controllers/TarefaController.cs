@@ -9,7 +9,8 @@ namespace Lista_de_Tarefas_MVC.Controllers
 {
     public class TarefaController : Controller
     {
-        public IActionResult Index()
+        // GET: Tarefa
+        public ActionResult Index()
         {
             using (TarefaModel model = new TarefaModel())
             {
