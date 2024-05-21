@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início</title>
+    <link rel="stylesheet" href="~/Lista_de_Tarefas_MVC.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/assets/logo-lista-tarefas-nobg.png" />
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(241, 241, 159);
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 100px;
+            width: 100%;
+            height: 100%;
+        }
+
+        main a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 50px;
+                background: white;
+                border: 1px solid blue;
+                font-size: 30px;
+                text-align: center;
+                color: purple;
+                text-decoration: none;
+                font-family: 'Segoe Print';
+                font-weight: 1000;
+        }
+
+        main img {
+            width: 280px;
+        }
+    </style>
+    @RenderBody()
+
+    <main>
+        <img src="~/assets/logo-lista-tarefas-nobg.png"/>
+        <a href="Tarefa">Acessar</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,140 @@
+﻿@model IEnumerable<Lista_de_Tarefas_MVC.Models.Tarefa>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lista</title>
+    <link rel="icon" type="image/x-icon" href="~/assets/logo-lista-tarefas-nobg.png" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        body {
+            background: rgb(241, 241, 159);
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Segoe Print';
+            gap: 50px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid blue;
+        }
+
+        thead tr th {
+            background: rgb(184, 184, 26);
+            color: white;
+        }
+
+        tbody {
+            background: white;
+            color: black;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+            position: relative;
+        }
+
+        td:last-child {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        td:last-child div {
+            display: flex;
+            gap: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:not(:last-child) {
+            border: 1px solid blue;
+        }
+
+        .nova-linha {
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            width: 150px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .adicionar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            background: white;
+            border: 1px solid blue;
+            font-size: 30px;
+            text-align: center;
+            color: purple;
+            text-decoration: none;
+            font-family: 'Segoe Print';
+            font-weight: 1000;
+        }
+
+        .alterar {
+            color: purple;
+        }
+
+        .excluir {
+            color: red;
+        }
+
+        .alterar, .excluir {
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <img src="~/assets/logo-lista-tarefas-nobg.png"/>
+    <table>
+        <tbody>
+            @foreach (var tarefa in Model)
+            {
+                <tr>
+                    <td>@tarefa.Descricao
+                        <div>
+                            <a class="alterar" href="Tarefa/update?id=@tarefa.Id">Alterar</a>
+                            <a class="excluir" href="Tarefa/delete?id=@tarefa.Id">Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a class="adicionar" href="Tarefa/Create">Adicionar</a>
+</body>
+</html>

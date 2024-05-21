@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB11D782-9BBD-4A6F-807A-0956CDAAF07E}|Lista de Tarefas MVC.csproj|c:\\users\\user\\source\\repos\\lista-de-tarefas-mvc\\lista de tarefas mvc\\views\\tarefa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB11D782-9BBD-4A6F-807A-0956CDAAF07E}|Lista de Tarefas MVC.csproj|solutionrelative:views\\tarefa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\Views\\Tarefa\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tarefa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Lista-de-Tarefas-MVC\\Lista de Tarefas MVC\\Views\\Tarefa\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tarefa\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T19:02:45.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

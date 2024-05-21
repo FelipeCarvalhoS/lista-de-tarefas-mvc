@@ -1,0 +1,83 @@
+﻿@model Lista_de_Tarefas_MVC.Models.Tarefa
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Adicionar</title>
+    <link rel="icon" type="image/x-icon" href="~/assets/logo-lista-tarefas-nobg.png" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: 'Segoe Print';
+        }
+
+        body {
+            background: rgb(241, 241, 159);
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 100%;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            height: 50px;
+            padding: 10px;
+            font-family: 'Segoe Print';
+            font-size: 24px;
+            color: black;
+        }
+
+        input[type="submit"] {
+            cursor: pointer;
+        }
+
+        label {
+            font-weight: 800;
+            font-size: 30px;
+        }
+
+        .salvar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            background: white;
+            border: 1px solid blue;
+            font-size: 30px;
+            text-align: center;
+            color: purple;
+            text-decoration: none;
+            font-family: 'Segoe Print';
+            font-weight: 1000;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Create" method="post">
+        <label for="Descricao">Descrição</label><br />
+        <input autofocus autocomplete="off" type="text" name="Descricao"><br>
+        <input type="submit" class="salvar" value="Adicionar"></input>
+    </form>
+</body>
+</html>

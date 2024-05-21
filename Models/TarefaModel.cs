@@ -1,0 +1,110 @@
+﻿using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.Web;
+using System.Security.Cryptography;
+using System.Data.SqlClient;
+using System.Runtime.InteropServices;
+
+namespace Lista_de_Tarefas_MVC.Models
+{
+    public class TarefaModel : IDisposable
+    {
+        private SqlConnection connection;
+
+        public TarefaModel()
+        {
+            //string strConn="Data Source=localhost;Initial Catalog=BDContato;Integrated Security=true";
+            string strConn = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ListaDeTarefas;Integrated Security=True";
+            connection = new SqlConnection(strConn);
+            connection.Open();
+        }
+
+        public void Dispose()
+        {
+            connection.Close();
+        }
+
+        public void Create(Tarefa tarefa)
+        {
+            SqlCommand cmd = new SqlCommand();
+
+            if (tarefa.Descricao == "")
+                tarefa.Descricao = "Vazio";
+
+            cmd.Connection = connection;
+            cmd.CommandText = @"INSERT INTO Tarefa VALUES (@descricao)";
+
+            cmd.Parameters.AddWithValue("@descricao", tarefa.Descricao);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch
+            {
+                Console.Write("Erro.");
+            }
+        }
+
+        public void Update(Tarefa tarefa)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = connection;
+            cmd.CommandText = @"UPDATE Tarefa SET Descricao=@descricao WHERE Id=@id";
+
+            if (tarefa.Descricao == "")
+                tarefa.Descricao = "Vazio";
+
+            cmd.Parameters.AddWithValue("@descricao", tarefa.Descricao);
+            cmd.Parameters.AddWithValue("@id", tarefa.Id);
+
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch
+            {
+                Console.Write("Erro.");
+            }
+        }
+
+        public void Delete(Tarefa tarefa)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = connection;
+            cmd.CommandText = @"DELETE FROM Tarefa WHERE Id=@id";
+
+            cmd.Parameters.AddWithValue("@id", tarefa.Id);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch
+            {
+                Console.Write("Erro.");
+            }
+        }
+
+        public List<Tarefa> Read()
+        {
+            List<Tarefa> lista = new List<Tarefa>();
+            SqlCommand cmd = new SqlCommand(@"SELECT * FROM Tarefa", connection);
+
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while(reader.Read())
+            {
+                Tarefa tarefa = new Tarefa();
+                tarefa.Id = (int)reader["Id"];
+                tarefa.Descricao = (string)reader["Descricao"];
+
+                lista.Add(tarefa);
+            }
+
+            return lista;
+        }
+    }
+}
